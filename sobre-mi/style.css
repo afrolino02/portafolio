@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /** caja css **/
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -36,12 +36,6 @@
 .dropdown-toggle {
   outline: 0;
 }
-/** textos **/
-.parrafos{
-  text-align: center;
-  position: relative;
-  bottom: 30%;
-}
 .principal{
 
   text-align: center;
@@ -58,12 +52,44 @@
   background-image: url('/Imagenes/code-image.jpg');
 }
 
-.ir-arriba
-{ font-size: 20px;  position: fixed;  right: 0;  bottom: 0;
+.ir-arriba{
+  font-size: 20px;  position: fixed;  right: 0;  bottom: 0;
   display: inline-block;
   padding: 20px;
   cursor: pointer;
   color: #fff;
   background: #024959;
   background: url('Arriba1.png');
+}
+.texto-mio{
+
+}
+.titulos{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top:62px;
+}
+.parrafos{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top:100px;
+  left: 20%;
+  width: 60%;
+}
+.titulos2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  top:150px;
+}
+.parrafos2{
+  position: relative;
+  text-align: center;
+  top: 200px;
+  left: 26%;
+  width: 50%;
 }

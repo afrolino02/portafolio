@@ -55,7 +55,8 @@
   resize: horizontal;
   opacity: 85%;
   background-repeat: no-repeat;
-  background-image: url('/Imagenes/code-image.jpg');
+  background-image: url('./Imagenes/code-image.jpg');
+
 }
 
 .ir-arriba

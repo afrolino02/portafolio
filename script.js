@@ -31,8 +31,3 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-ScrollReveal().reveal('.scroll', { delay: 2000 });
-ScrollReveal().reveal('.tagline', { delay: 500 });
-ScrollReveal().reveal('.punchline', { delay: 2000 });
-ScrollReveal().reveal('.d-block');
-ScrollReveal().reveal('.nada', { delay: 500 });
