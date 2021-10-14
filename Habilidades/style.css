@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 /** caja css **/
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -37,11 +37,7 @@
   outline: 0;
 }
 /** textos **/
-.parrafos{
-  text-align: center;
-  position: relative;
-  bottom: 30%;
-}
+
 .principal{
 
   text-align: center;
@@ -49,13 +45,17 @@
 
 }
 /** cierro textos**/
-.bg-image{
-  position: relative;
-  height: 45vh;
-  resize: horizontal;
-  opacity: 85%;
-  background-repeat: no-repeat;
-  background-image: url('/Imagenes/code-image.jpg');
+@media only screen and (min-width: 400px) {
+  .bg-image{
+    background-image: url('../Imagenes/code-image.jpg');
+    width: 100%;
+ height: 400px;
+ opacity: 87%;
+ resize: horizontal;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+  }
 }
 
 .ir-arriba
@@ -75,4 +75,28 @@
 }
 @media query {
 
+}
+
+.titulos{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  top:62px;
+}
+.parrafos{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin: 60px;
+  width: 45%;
+  left: 25%;
+  position: relative;
+
+}
+.cv{
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  text-align: center;
+  left: 35%;
 }
