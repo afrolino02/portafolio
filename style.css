@@ -65,7 +65,7 @@
 .ir-arriba
 { font-size: 20px;  position: fixed;  right: 0;  bottom: 0;
   display: inline-block;
-  padding: 20px;
+  padding: 20.5px;
   cursor: pointer;
   color: #fff;
   background: #024959;
@@ -192,4 +192,9 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+}
+.div1 {
+  width: auto;
+  height:auto;
+
 }
