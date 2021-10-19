@@ -49,7 +49,7 @@
 
 }
 /** cierro textos**/
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 360px) {
   .bg-image{
     background-image: url('./Imagenes/code-image.jpg');
     width: 100%;
