@@ -12,17 +12,29 @@
 
   <body>
     <a class="ir-arriba" onclick="topFunction()" id="myBtn" title="Go to top"></a>
-    <div class="container">
-      <header class="d-flex justify-content-center py-3 " >
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page"style="background-color:#6c99bb;">Incio</a></li>
-          <li class="nav-item"><a href="../sobre-mi/index.html" class="nav-link" style="color:#6c99bb;">Habilidades</a></li>
-          <li class="nav-item"><a class="nav-link" style="color:#6c99bb;" href="index.html">Sobre mi</a></li>
-          <li class="nav-item"><a href="./consultas/index.html" class="nav-link"style="color:#6c99bb;">Consultas</a></li>
+    <!--  
+    <div class="" >
+        <ul class="nav nav-pills topnav d-flex justify-content-center py-3"id="myTopnav">
+          <li ><a href="index.html" href="#home"class="nav-link active" aria-current="page"style="background-color:#e87d3e;">Inicio</a></li>
+          <li ><a href="./Habilidades/index.html" href="#news"style="color:#e5b567;">Habilidades</a></li>
+          <li ><a class="nav-link" style="color:#e5b567;" href="#contact" href="./sobre-mi/index.html">Sobre mi</a></li>
+          <li ><a href="./consultas/index.html"href="#about" style="color:#e5b567;">Consultas</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </ul>
-      </header>
     </div>
-
+    -->
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
     <div class="bg-image" >
       <h1 class="text-center" style=" font-size:50px; top:200px; position:relative; font-family:fantasy; color:#ffffff;">¡Bienvenidos a mi portafolio!</h1>
     </div>
@@ -96,6 +108,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
   ScrollReveal({
     reset: true
