@@ -13,23 +13,26 @@
   <body>
     <a class="ir-arriba" onclick="topFunction()" id="myBtn" title="Go to top"></a>
 
-    <div class="container">
-      <header class="d-flex justify-content-center py-3" >
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="../../index.html" class="nav-link active" aria-current="page"style="background-color:#6c99bb;">Incio</a></li>
-          <li class="nav-item"><a href="../sobre-mi/index.html" class="nav-link" style="color:#6c99bb;">Habilidades</a></li>
-          <li class="nav-item"><a class="nav-link" style="color:#6c99bb;" href="index.html">Mas sobre mi</a></li>
-          <li class="nav-item"><a href1="#" class="nav-link"style="color:#6c99bb;">Consultas</a></li>
-        </ul>
-      </header>
+    <div class="topnav" id="myTopnav">
+      <ul>
+      <a href="index.html" href="#home" class="nav-link active" aria-current="page"
+        style="background-color:#e87d3e;">Inicio</a>
+      <a href="./Habilidades/index.html" href="#news" style="color:#e5b567;">Sobre mi</a>
+      <a class="nav-link" style="color:#e5b567;" href="#contact" href="./sobre-mi/index.html">Habilidades</a>
+      <a href="./consultas/index.html" href="#about" style="color:#e5b567;">Consultas</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
     </div>
+        
 
     <div class="bg-image imagen" >
       <h1 class="text-center" style=" font-size:50px; top:200px; position:relative; font-family:fantasy; color:#ffffff;">Mis habilidades</h1>
 
     </div>
 
-    <div>
+    <div class="div1">
       <h1 class="titulos">Tecnologicas</h1>
       <p class="parrafos">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -39,7 +42,7 @@
         </div>
         <div>
           <h2 class="titulos">Hoja de vida</h2>
-          <iframe class="cv"src="cv-andres.pdf" width="" height=""></iframe>
+          <iframe class="cv"src="cv-andres.pdf"></iframe>
         </div>
 
 

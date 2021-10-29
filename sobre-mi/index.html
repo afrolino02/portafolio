@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bienvenidos a mi portafolio</title>
+    <title>Bienvenidos a mi portfolio</title>
     <script src="https://unpkg.com/scrollreveal"></script>
       <script>
           ScrollReveal({ reset: true });
@@ -13,32 +13,38 @@
   <body>
     <a class="ir-arriba" onclick="topFunction()" id="myBtn" title="Go to top"></a>
 
-    <div class="container">
-      <header class="d-flex justify-content-center py-3" >
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="../../index.html" class="nav-link active" aria-current="page"style="background-color:#6c99bb;">Inicio</a></li>
-          <li class="nav-item"><a href="../../Habilidades/index.html" class="nav-link" style="color:#6c99bb;">Habilidades</a></li>
-          <li class="nav-item"><a class="nav-link" style="color:#6c99bb;" href="../sobre-mi/index.html">Mas sobre mi</a></li>
-          <li class="nav-item"><a href1="#" class="nav-link"style="color:#6c99bb;">Consultas</a></li>
-        </ul>
-
-      </header>
+    <div class="topnav" id="myTopnav">
+      <ul>
+      <a href="../index.html" href="#home" class="nav-link active" aria-current="page"
+        style="background-color:#e87d3e;">Inicio</a>
+      <a href="index.html" style="color:#e5b567;">Sobre mi</a>
+      <a class="nav-link" style="color:#e5b567;" href="../Habilidades/index.html">Habilidades</a>
+      <a href="../consultas/index.html" href="#about" style="color:#e5b567;">Consultas</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul>
     </div>
-    <div>
-    <div class="bg-image">
-      <h1 class="text-center" style=" font-size:50px; top:200px; position:relative; font-family:fantasy; color:#ffffff;">Sobre mi.</h1>
+        
+    <div> 
+      <div class="bg-image">
+        <h1 class="text-center" style=" font-size:50px; top:200px; position:relative; font-family:fantasy; color:#ffffff;">Sobre mi.</h1>
+      </div>
+      <div class="div1">
+        <h1 class="titulo">¿Quien soy?</h1>
+        <p class="parrafo">Hola soy estudiante de la universidad nacional abierta y  a distancia de la escuelas de artes y humanidades, nací y me crié en Cartagena de Indias, desde pequeño soy a pasionado a la tecnologia e informatica
+          , y en mi adolescencia empezó mi gusto por la musica y filosofia
+        </p>
+        
+      </div>
+      <div class="div1">
+        <h1 class="titulo">Cuales mi objetivo</h1>
+        <img src="../Imagenes/andres.jpeg" alt="">
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nisi soluta asperiores! Cumque aspernatur est nostrum, consequuntur atque ab dolore harum dolores quae corrupti architecto, sequi, hic debitis repudiandae tenetur.</p>
+        
+      </div>
+      
     </div>
-    <div class="div1">
-      <h1 class="titulo">Hola soy andres</h1>
-      <p class="parrafo"></p>
-
-    </div>
-    <div class="div1">
-      <h1 class="titulo">lorer</h1>
-      <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nisi soluta asperiores! Cumque aspernatur est nostrum, consequuntur atque ab dolore harum dolores quae corrupti architecto, sequi, hic debitis repudiandae tenetur.</p>
-
-    </div>
-
   </body>
   <link rel="stylesheet" href="style.css">
 </html>
@@ -51,7 +57,9 @@
 <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
+
   ScrollReveal({
     reset: true
   });
